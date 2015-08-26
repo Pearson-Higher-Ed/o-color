@@ -1,0 +1,14 @@
+{
+    "description": "Higher Ed Origami Colors",
+    "origamiType": "module",
+    "origamiVersion": 1,
+    "support": "https://github.com/Pearson-Higher-Ed/o-colors/issues",
+    "supportStatus": "experimental",
+    "demos": [
+        {
+            "path": "/demos/demo.html",
+            "expanded": true,
+            "description": ""
+        }
+    ]
+}

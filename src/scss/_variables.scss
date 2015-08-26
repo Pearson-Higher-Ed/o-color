@@ -1,0 +1,176 @@
+////
+/// @group o-colors
+/// @link http://registry.origami.ft.com/components/o-colors
+////
+
+// Grayscale consistencies
+$gray-5: darken(#ffffff, 5%);
+$gray-10: darken(#ffffff, 10%);
+$gray-20: darken(#ffffff, 20%);
+$gray-30: darken(#ffffff, 30%);
+$gray-40: darken(#ffffff, 40%);
+$gray-50: darken(#ffffff, 50%);
+$gray-60: darken(#ffffff, 60%);
+$gray-70: darken(#ffffff, 70%);
+$gray-80: darken(#ffffff, 80%);
+$gray-90: darken(#ffffff, 90%);
+
+// Color variables copied from UX boilerplate
+/* === General === */
+
+$bg: #FFF;
+$cntntBg: #FFF;
+
+/* === Typography === */
+
+$txt: #4D4D4D;
+
+/* === Colors === */
+
+$color-error: #B94A48;
+$color-confirmation: #468847;
+
+/* === Highlight === */
+
+$color-highlight-yellow: #FFD232; /* Default */
+$color-highlight-pink: #FC92CF;
+$color-highlight-green: #55DF49;
+$color-highlight-blue: #66FFFF;
+
+
+/* === Links === */
+
+$links: #0D65A6; // All states
+
+/* === Tables === */
+
+$table-head: #F8F8F8;
+$table-border: #E8E8E8;
+$table-head-sortable-light: #F8F8F8;
+$table-head-sortable-dark: #E0E0E0;
+$table-head-sorted: #E0E0E0;
+$table-column-sorted: #F8F8F8;
+$table-row-selected: #CDEEFD;
+$table-row-selected-border: #94D1FF;
+$table-column-sorted-and-row-selected: #D0E1F0;
+
+$table-row-odd: #FFF;
+$table-row-even: #F8F8F8;
+$table-border: #DDD;
+$table-row-hover: #EDF5FE;
+$table-row-expanded: #E0E0E0;
+$table-row-selected: #D9ECFD;
+
+/* === Student Custom Style === */
+
+$cntntBrdr: #999;
+
+/* === Icons === 
+   Only affects Font Awesome icons
+   Halfling icon color is defined by their image file
+   Setting to '$txt' matches icon color to text color. */
+
+$fa-icon-color: $txt; /* Set to same color as body text */
+
+
+/* === Application Header === */
+
+$app-header-background: #2D3237;
+$app-header-bottom-line: #259DF5;
+
+$nav-bg: #efefef;
+$nav-brdr: #ccc;
+
+/* === Section Colors === */
+
+$sec-bg: #FFF;
+$sec-brdr: #DDD;
+$sec-hd-bg: #F2F2F2;
+$sec-title: #333;
+
+$orange: #EC8300;
+$green: #61AE5B;
+$red: #D83D4D;
+$alertRed: #D83D4D;
+$homeBlue: #0089b7;
+$blue: #236AA6;
+$lightBlue: #D3EAF2;
+$pink: #CF307B;
+$purple: purple;
+
+/* === Buttons === */
+
+/* - Default - */
+$btn-text: #4D4D4D;
+$btn-text-shadow: #FFF;
+$btn-border: #C0C0C0;
+$btn-light: #FCFCFC;
+$btn-dark: #F1F1F1;
+$btn-active: $btn-border;
+
+/* - Primary - */
+$btn-primary-text: #FFF;
+$btn-primary-text-shadow: #1E6AA4;
+$btn-primary-border: #0C64A5;
+$btn-primary-light: #368FD2;
+$btn-primary-dark: #107ACA;
+$btn-primary-active: $btn-primary-border;
+
+/* - Info - */
+$btn-info-text: #FFF;
+$btn-info-text-shadow: #1D868C;
+$btn-info-border: #13898F;
+$btn-info-light: #19BAC2;
+$btn-info-dark: #16A0A6;
+$btn-info-active: $btn-info-border;
+
+/* - Success - */
+$btn-success-text: #FFF;
+$btn-success-text-shadow: #19754B;
+$btn-success-border: #006E4A;
+$btn-success-light: #3DA85C;
+$btn-success-dark: #008A5D;
+$btn-success-active: $btn-success-border;
+
+/* - Warning - */
+$btn-warning-text: #FFF;
+$btn-warning-text-shadow: #C77231;
+$btn-warning-border: #D96126;
+$btn-warning-light: #F59831;
+$btn-warning-dark: #EE802B;
+$btn-warning-active: $btn-warning-border;
+
+/* - Danger - */
+$btn-danger-text: #FFF;
+$btn-danger-text-shadow: #B03436;
+$btn-danger-border: #BA2D2D;
+$btn-danger-light: #E25555;
+$btn-danger-dark: #DC3535;
+$btn-danger-active: $btn-danger-border;
+
+/* - Inverse - */
+$btn-inverse-text: #FFF;
+$btn-inverse-text-shadow: #292929;
+$btn-inverse-border: #292929;
+$btn-inverse-light: #444;
+$btn-inverse-dark: #222;
+$btn-inverse-active: $btn-inverse-border;
+
+/* - Disabled -
+     All disabled buttons use the same color */
+$btn-disabled: #C0C0C0;
+$btn-disabled-text: #686868;
+
+/* - Dropdown Lists */
+$dropdown-list-active: #107ACA;
+
+
+/* === Forms === */
+
+$placeholer-text: #767676;
+$input-borders: #D4D4D4;
+$input-borders-focus: #7BA5CB;
+$help-text: #4D4D4D;
+$field-required: #008A12;
+$field-optional: #767676;
+$field-valid: #008A12;

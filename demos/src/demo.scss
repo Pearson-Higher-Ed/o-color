@@ -1,0 +1,92 @@
+$o-assets-global-path: '/bower_components/';
+$o-colors-is-silent: false;
+
+@import '../../main';
+
+html {
+	font-family: Arial, sans serif
+}
+
+body {
+	padding: 50px 150px;
+}
+
+// add swatches to demo colors
+.swatches {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	.swatch {
+		float: left;
+		margin: 10px;
+		padding: 25px;
+		width: 200px;
+		text-align: center;
+		border: 1px solid $gray-30;
+		&.gray-5 {
+			background: $gray-5;
+		}
+		&.gray-10 {
+			background: $gray-10;
+		}
+		&.gray-20 {
+			background: $gray-20;
+		}
+		&.gray-30 {
+			background: $gray-30;
+		}
+		&.gray-40 {
+			background: $gray-40;
+		}
+		&.gray-50 {
+			background: $gray-50;
+		}
+		&.gray-60 {
+			background: $gray-60;
+			color: #fff;
+		}
+		&.gray-70 {
+			background: $gray-70;
+			color: #fff;
+		}
+		&.gray-80 {
+			background: $gray-80;
+			color: #fff;
+		}
+		&.gray-90 {
+			background: $gray-90;
+			color: #fff;
+		}
+		&.bg {
+			background: $bg;
+		}
+		&.cntntBg {
+			background: $cntntBg;
+		}
+		&.txt {
+			background: $txt;
+			color: #fff;
+		}
+		&.color-error {
+			background: $color-error;
+		}
+		&.color-confirmation {
+			background: $color-confirmation;
+		}
+		&.color-highlight-yellow {
+			background: $color-highlight-yellow;
+		}
+		&.color-highlight-pink {
+			background: $color-highlight-pink;
+		}
+		&.color-highlight-green {
+			background: $color-highlight-green;
+		}
+		&.color-highlight-blue {
+			background: $color-highlight-blue;
+		}
+		&.links {
+			background: $links;
+		}
+	}
+}
