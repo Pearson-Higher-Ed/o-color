@@ -3,6 +3,9 @@ $o-colors-is-silent: false;
 
 @import '../../main';
 
+$color-names: o-colors-gray-5 o-colors-gray-10 o-colors-gray-20 o-colors-gray-30 o-colors-gray-40 o-colors-gray-50 o-colors-gray-60 o-colors-gray-70 o-colors-gray-80 o-colors-gray-90 o-colors-bg o-colors-cntntBg o-colors-txt o-colors-color-error o-colors-color-confirmation o-colors-color-highlight-yellow  o-colors-color-highlight-pink o-colors-color-highlight-green o-colors-color-highlight-blue o-colors-links o-colors-table-head o-colors-table-border o-colors-table-head-sortable-light o-colors-table-head-sortable-dark o-colors-table-head-sorted o-colors-table-column-sorted o-colors-table-row-selected o-colors-table-row-selected-border o-colors-table-column-sorted-and-row-selected o-colors-table-row-odd o-colors-table-row-even o-colors-table-border o-colors-table-row-hover o-colors-table-row-expanded o-colors-table-row-selected o-colors-cntntBrdr o-colors-fa-icon-color  o-colors-app-header-background o-colors-app-header-bottom-line o-colors-nav-bg o-colors-nav-brdr o-colors-sec-bg o-colors-sec-brdr o-colors-sec-hd-bg o-colors-sec-title o-colors-orange o-colors-green o-colors-red o-colors-alertRed o-colors-homeBlue o-colors-blue o-colors-lightBlue o-colors-pink o-colors-purple o-colors-btn-text o-colors-btn-text-shadow o-colors-btn-border o-colors-btn-light o-colors-btn-dark o-colors-btn-active o-colors-btn-primary-text o-colors-btn-primary-text-shadow o-colors-btn-primary-border o-colors-btn-primary-light o-colors-btn-primary-dark o-colors-btn-primary-active o-colors-btn-info-text o-colors-btn-info-text-shadow o-colors-btn-info-border o-colors-btn-info-light o-colors-btn-info-dark o-colors-btn-info-active o-colors-btn-success-text o-colors-btn-success-text-shadow o-colors-btn-success-border o-colors-btn-success-light o-colors-btn-success-dark o-colors-btn-success-active o-colors-btn-warning-text o-colors-btn-warning-text-shadow o-colors-btn-warning-border o-colors-btn-warning-light o-colors-btn-warning-dark o-colors-btn-warning-active o-colors-btn-danger-text o-colors-btn-danger-text-shadow o-colors-btn-danger-border o-colors-btn-danger-light o-colors-btn-danger-dark o-colors-btn-danger-active o-colors-btn-inverse-text o-colors-btn-inverse-text-shadow o-colors-btn-inverse-border o-colors-btn-inverse-light o-colors-btn-inverse-dark o-colors-btn-inverse-active o-colors-btn-disabled o-colors-btn-disabled-text o-colors-dropdown-list-active o-colors-placeholer-text o-colors-input-borders o-colors-input-borders-focus o-colors-help-text o-colors-field-required o-colors-field-optional o-colors-field-valid;
+$color-vars: $o-colors-gray-5 $o-colors-gray-10 $o-colors-gray-20 $o-colors-gray-30 $o-colors-gray-40 $o-colors-gray-50 $o-colors-gray-60 $o-colors-gray-70 $o-colors-gray-80 $o-colors-gray-90 $o-colors-bg $o-colors-cntntBg $o-colors-txt $o-colors-color-error $o-colors-color-confirmation $o-colors-color-highlight-yellow  $o-colors-color-highlight-pink $o-colors-color-highlight-green $o-colors-color-highlight-blue $o-colors-links $o-colors-table-head $o-colors-table-border $o-colors-table-head-sortable-light $o-colors-table-head-sortable-dark $o-colors-table-head-sorted $o-colors-table-column-sorted $o-colors-table-row-selected $o-colors-table-row-selected-border $o-colors-table-column-sorted-and-row-selected $o-colors-table-row-odd $o-colors-table-row-even $o-colors-table-border $o-colors-table-row-hover $o-colors-table-row-expanded $o-colors-table-row-selected $o-colors-cntntBrdr $o-colors-fa-icon-color  $o-colors-app-header-background $o-colors-app-header-bottom-line $o-colors-nav-bg $o-colors-nav-brdr $o-colors-sec-bg $o-colors-sec-brdr $o-colors-sec-hd-bg $o-colors-sec-title $o-colors-orange $o-colors-green $o-colors-red $o-colors-alertRed $o-colors-homeBlue $o-colors-blue $o-colors-lightBlue $o-colors-pink $o-colors-purple $o-colors-btn-text $o-colors-btn-text-shadow $o-colors-btn-border $o-colors-btn-light $o-colors-btn-dark $o-colors-btn-active $o-colors-btn-primary-text $o-colors-btn-primary-text-shadow $o-colors-btn-primary-border $o-colors-btn-primary-light $o-colors-btn-primary-dark $o-colors-btn-primary-active $o-colors-btn-info-text $o-colors-btn-info-text-shadow $o-colors-btn-info-border $o-colors-btn-info-light $o-colors-btn-info-dark $o-colors-btn-info-active $o-colors-btn-success-text $o-colors-btn-success-text-shadow $o-colors-btn-success-border $o-colors-btn-success-light $o-colors-btn-success-dark $o-colors-btn-success-active $o-colors-btn-warning-text $o-colors-btn-warning-text-shadow $o-colors-btn-warning-border $o-colors-btn-warning-light $o-colors-btn-warning-dark $o-colors-btn-warning-active $o-colors-btn-danger-text $o-colors-btn-danger-text-shadow $o-colors-btn-danger-border $o-colors-btn-danger-light $o-colors-btn-danger-dark $o-colors-btn-danger-active $o-colors-btn-inverse-text $o-colors-btn-inverse-text-shadow $o-colors-btn-inverse-border $o-colors-btn-inverse-light $o-colors-btn-inverse-dark $o-colors-btn-inverse-active $o-colors-btn-disabled $o-colors-btn-disabled-text $o-colors-dropdown-list-active $o-colors-placeholer-text $o-colors-input-borders $o-colors-input-borders-focus $o-colors-help-text $o-colors-field-required $o-colors-field-optional $o-colors-field-valid;
+
 html {
 	font-family: Arial, sans serif
 }
@@ -20,73 +23,18 @@ body {
 		float: left;
 		margin: 10px;
 		padding: 25px;
-		width: 200px;
+		width: 150px;
+		height: 20px;
 		text-align: center;
 		border: 1px solid $o-colors-gray-30;
-		&.gray-5 {
-			background: $o-colors-gray-5;
+		font-size: 12px;
+		
+		@each $name in $color_names {
+		  $i: index($color_names, $name);
+		  &.#{$name} {
+		    background: nth($color_vars, $i);
+		  }
 		}
-		&.gray-10 {
-			background: $o-colors-gray-10;
-		}
-		&.gray-20 {
-			background: $o-colors-gray-20;
-		}
-		&.gray-30 {
-			background: $o-colors-gray-30;
-		}
-		&.gray-40 {
-			background: $o-colors-gray-40;
-		}
-		&.gray-50 {
-			background: $o-colors-gray-50;
-		}
-		&.gray-60 {
-			background: $o-colors-gray-60;
-			color: #fff;
-		}
-		&.gray-70 {
-			background: $o-colors-gray-70;
-			color: #fff;
-		}
-		&.gray-80 {
-			background: $o-colors-gray-80;
-			color: #fff;
-		}
-		&.gray-90 {
-			background: $o-colors-gray-90;
-			color: #fff;
-		}
-		&.bg {
-			background: $o-colors-bg;
-		}
-		&.cntntBg {
-			background: $o-colors-cntntBg;
-		}
-		&.txt {
-			background: $o-colors-txt;
-			color: #fff;
-		}
-		&.color-error {
-			background: $o-colors-color-error;
-		}
-		&.color-confirmation {
-			background: $o-colors-color-confirmation;
-		}
-		&.color-highlight-yellow {
-			background: $o-colors-color-highlight-yellow;
-		}
-		&.color-highlight-pink {
-			background: $o-colors-color-highlight-pink;
-		}
-		&.color-highlight-green {
-			background: $o-colors-color-highlight-green;
-		}
-		&.color-highlight-blue {
-			background: $o-colors-color-highlight-blue;
-		}
-		&.links {
-			background: $o-colors-links;
-		}
+		
 	}
 }
