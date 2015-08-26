@@ -22,71 +22,71 @@ body {
 		padding: 25px;
 		width: 200px;
 		text-align: center;
-		border: 1px solid $gray-30;
+		border: 1px solid $o-colors-gray-30;
 		&.gray-5 {
-			background: $gray-5;
+			background: $o-colors-gray-5;
 		}
 		&.gray-10 {
-			background: $gray-10;
+			background: $o-colors-gray-10;
 		}
 		&.gray-20 {
-			background: $gray-20;
+			background: $o-colors-gray-20;
 		}
 		&.gray-30 {
-			background: $gray-30;
+			background: $o-colors-gray-30;
 		}
 		&.gray-40 {
-			background: $gray-40;
+			background: $o-colors-gray-40;
 		}
 		&.gray-50 {
-			background: $gray-50;
+			background: $o-colors-gray-50;
 		}
 		&.gray-60 {
-			background: $gray-60;
+			background: $o-colors-gray-60;
 			color: #fff;
 		}
 		&.gray-70 {
-			background: $gray-70;
+			background: $o-colors-gray-70;
 			color: #fff;
 		}
 		&.gray-80 {
-			background: $gray-80;
+			background: $o-colors-gray-80;
 			color: #fff;
 		}
 		&.gray-90 {
-			background: $gray-90;
+			background: $o-colors-gray-90;
 			color: #fff;
 		}
 		&.bg {
-			background: $bg;
+			background: $o-colors-bg;
 		}
 		&.cntntBg {
-			background: $cntntBg;
+			background: $o-colors-cntntBg;
 		}
 		&.txt {
-			background: $txt;
+			background: $o-colors-txt;
 			color: #fff;
 		}
 		&.color-error {
-			background: $color-error;
+			background: $o-colors-color-error;
 		}
 		&.color-confirmation {
-			background: $color-confirmation;
+			background: $o-colors-color-confirmation;
 		}
 		&.color-highlight-yellow {
-			background: $color-highlight-yellow;
+			background: $o-colors-color-highlight-yellow;
 		}
 		&.color-highlight-pink {
-			background: $color-highlight-pink;
+			background: $o-colors-color-highlight-pink;
 		}
 		&.color-highlight-green {
-			background: $color-highlight-green;
+			background: $o-colors-color-highlight-green;
 		}
 		&.color-highlight-blue {
-			background: $color-highlight-blue;
+			background: $o-colors-color-highlight-blue;
 		}
 		&.links {
-			background: $links;
+			background: $o-colors-links;
 		}
 	}
 }
