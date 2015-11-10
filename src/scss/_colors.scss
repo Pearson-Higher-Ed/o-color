@@ -1,0 +1,31 @@
+@function o-colors-get-color($palette, $category, $variation) {
+	@if not map-has-key($o-colors-palettes, $palette) {
+		@error "Unrecognized palette: #{$palette}";
+	}
+
+	$palette: map-get($o-colors-palettes, $palette);
+
+	@if not map-has-key($palette, $category) {
+		@error "Unrecognized category: #{$category}";
+	}
+
+	$category: map-get($palette, $category);
+
+	@if not map-has-key($category, $variation) {
+		@error "Unrecognized variation: #{$variation}";
+	}
+
+	@return map-get($category, $variation);
+}
+
+@function o-colors-get-fg-color($palette, $variation) {
+	@return o-colors-get-color($palette, fg, $variation);
+}
+
+@function o-colors-get-bg-color($palette, $variation) {
+	@return o-colors-get-color($palette, bg, $variation);
+}
+
+@function o-colors-get-accent-color($palette, $variation) {
+	@return o-colors-get-color($palette, accent, $variation);
+}
